@@ -14,6 +14,7 @@ import Events from './pages/Eventpage';
 import Team from './team';
 import Certificate from './Certificate';
 
+
 // IMPORTING LAYOUTS
 import Navbar from './layouts/Navbar';
 
@@ -33,7 +34,7 @@ function App() {
         <Route path="/Team" component={Team} />
         <Route path="/Join" component={Home} />
         <Route path="/Projects" component={Home} />
-        <Route path="/certificate" component={Certificate} />
+        <Route path="/certificate/:id" component={Certificate} />
       </Switch>
       {window.location.pathname !== '/certificate' && <Footer />}
     </Router>

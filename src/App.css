@@ -131,7 +131,7 @@ body {
 
 .text {
   font-weight: 300;
-  font-size: 2rem;
+  font-size: 1.75rem;
   text-align: justify;
   letter-spacing: 0.2rem; }
 
@@ -402,7 +402,7 @@ body {
     height: 20rem;
     fill: rgba(251, 188, 4, 0.3); }
   .cert__name {
-    font-size: 5rem;
+    font-size: 4rem;
     color: #4285f4;
     text-transform: uppercase; }
   .cert .text {

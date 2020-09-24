@@ -707,8 +707,8 @@ export const Cert = () => {
 export const doubleArrow = () => {
   return (
     <svg
-      width="291"
-      height="193"
+      width="261"
+      height="163"
       viewBox="0 0 291 193"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
