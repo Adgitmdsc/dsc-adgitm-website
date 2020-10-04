@@ -9,12 +9,10 @@ import Typography from '@material-ui/core/Typography';
 import Harsh from '../assets/team/Harsh.png'
 import Yashvardhan from '../assets/team/Yashvardhan.jpg'
 import Shagun from '../assets/team/Shagun.jpg'
-import Darshpreet from '../assets/team/Darshpreet.jpg'
 import Sanyam from '../assets/team/Sanyam.jpg'
 import Athrav from '../assets/team/Athrav.jpg'
 import Mohit from '../assets/team/Mohit.png'
 import Praveen from '../assets/team/Praveen.jpeg'
-import Shubham from '../assets/team/Shubham.jpg'
 import Ayanabha from '../assets/team/Ayanabha.jpg'
 import Anubhav from '../assets/team/Anubhav.jpg'
 import Rajeev from '../assets/team/Rajeev.jpg'
@@ -141,25 +139,6 @@ export default function Team() {
                         <Paper elevation={3}>
                             <Grid container wrap="nowrap" spacing={2}>
                                 <Grid item>
-                                    <Avatar alt="Member Photo" src={Darshpreet} className={classes.large} />
-                                </Grid>
-                                <Grid item xs>
-                                    <a href="https://www.linkedin.com/in/darshpreet-singh-848a13146/">
-                                        <Typography variant="h4" className={classes.hy}>
-                                            Darshpreet Singh
-                                    </Typography></a>
-                                    <Typography variant="h5" gutterBottom className={classes.hx}>
-                                        Project Development Co-Head
-                                    </Typography>
-                                </Grid>
-                            </Grid>
-                        </Paper>
-                    </Grid>
-
-                    <Grid item xs={12} sm={4}>
-                        <Paper elevation={3}>
-                            <Grid container wrap="nowrap" spacing={2}>
-                                <Grid item>
                                     <Avatar alt="Member Photo" src={Sanyam} className={classes.large} />
                                 </Grid>
                                 <Grid item xs>
@@ -211,6 +190,24 @@ export default function Team() {
                         <Paper elevation={3}>
                             <Grid container wrap="nowrap" spacing={2}>
                                 <Grid item>
+                                    <Avatar alt="Member Photo" src={Uday} className={classes.large} />
+                                </Grid>
+                                <Grid item xs>
+                                    <a href="https://www.linkedin.com/in/uday-yadav-cs/">
+                                        <Typography variant="h4" className={classes.hy}>
+                                            Uday Yadav
+                                    </Typography></a>
+                                    <Typography variant="h5" gutterBottom className={classes.hx}>
+                                        Web Lead
+                                    </Typography>
+                                </Grid>
+                            </Grid>
+                        </Paper>
+                    </Grid>
+                    <Grid item xs={12} sm={4}>
+                        <Paper elevation={3}>
+                            <Grid container wrap="nowrap" spacing={2}>
+                                <Grid item>
                                     <Avatar alt="Member Photo" src={Mohit} className={classes.large} />
                                 </Grid>
                                 <Grid item xs>
@@ -254,25 +251,6 @@ export default function Team() {
                                     <a href="https://www.linkedin.com/in/atharv-jairath-99aa78118/">
                                         <Typography variant="h4" className={classes.hy}>
                                             Athrav Jairath
-                                    </Typography></a>
-                                    <Typography variant="h5" gutterBottom className={classes.hx}>
-                                        Web
-                                    </Typography>
-                                </Grid>
-                            </Grid>
-                        </Paper>
-                    </Grid>
-
-                    <Grid item xs={12} sm={4}>
-                        <Paper elevation={3}>
-                            <Grid container wrap="nowrap" spacing={2}>
-                                <Grid item>
-                                    <Avatar alt="Member Photo" src={Shubham} className={classes.large} />
-                                </Grid>
-                                <Grid item xs>
-                                    <a href="https://www.linkedin.com/in/shubham-gupta-ba8615166/">
-                                        <Typography variant="h4" className={classes.hy}>
-                                            Shubham Gupta
                                     </Typography></a>
                                     <Typography variant="h5" gutterBottom className={classes.hx}>
                                         Web
@@ -339,24 +317,7 @@ export default function Team() {
                         </Paper>
                     </Grid>
 
-                    <Grid item xs={12} sm={4}>
-                        <Paper elevation={3}>
-                            <Grid container wrap="nowrap" spacing={2}>
-                                <Grid item>
-                                    <Avatar alt="Member Photo" src={Uday} className={classes.large} />
-                                </Grid>
-                                <Grid item xs>
-                                    <a href="https://www.linkedin.com/in/uday-yadav-cs/">
-                                        <Typography variant="h4" className={classes.hy}>
-                                            Uday Yadav
-                                    </Typography></a>
-                                    <Typography variant="h5" gutterBottom className={classes.hx}>
-                                        Web Lead
-                                    </Typography>
-                                </Grid>
-                            </Grid>
-                        </Paper>
-                    </Grid>
+
 
                 </Grid>
             </div>
