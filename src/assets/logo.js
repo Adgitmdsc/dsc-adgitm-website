@@ -677,8 +677,8 @@ export const Cert = () => {
   return (
     <svg
       width="1366"
-      height="300"
-      viewBox="0 0 1366 300"
+      height="230"
+      viewBox="0 0 1366 230"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >

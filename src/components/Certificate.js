@@ -8,10 +8,11 @@ const Certificate = () => {
 
   let { id } = useParams();
 
-  const [one, setOne] = React.useState("");
-  const [two, setTwo] = React.useState("");
-  const [three, setThree] = React.useState("");
+  const [one, setOne] = React.useState("Just a sec");
+  const [two, setTwo] = React.useState("Please Wait");
+  const [three, setThree] = React.useState("Fetching you certificate, it may take upto 10-11 seconds");
   const [four, setFour] = React.useState("");
+  const [five, setFive] = React.useState("Fetching");
 
   React.useEffect(() => {
     const getData = async () => {
@@ -23,6 +24,7 @@ const Certificate = () => {
           setTwo(data.two);
           setThree(data.three);
           setFour(data.four);
+          setFive(data.five);
         }).catch(error => {
           console.log(error)
           alert(`${error.code} : ${error.message}`)
@@ -53,6 +55,8 @@ const Certificate = () => {
         </div>
         <br />
         {/* Certificate- content */}
+        <h1 >{five}</h1>
+        <br />
         <p className="text u-container">{one}</p>
         <div className="cert__content">
           <div className="cert__name-group">
