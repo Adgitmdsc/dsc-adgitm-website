@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "@material-ui/core/Button";
 import Card from "@material-ui/core/Card";
+import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
 import CssBaseline from "@material-ui/core/CssBaseline";
@@ -44,8 +45,6 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const cards = [1];
-
 export default function Album() {
   const classes = useStyles();
 
@@ -86,6 +85,7 @@ export default function Album() {
                     variant="contained"
                     size="large"
                     color="primary"
+                    target="_blank"
                   >
                     Youtube Channel
                   </Button>
@@ -94,33 +94,43 @@ export default function Album() {
             </div>
           </Container>
         </div>
-        <Container className={classes.cardGrid} maxWidth="md">
-          {/* End hero unit */}
-          <Grid container spacing={4}>
-            {cards.map((card) => (
-              <Grid item key={card} xs={12} sm={6} md={4}>
-                <Card className={classes.card}>
-                  <CardMedia
-                    className={classes.media}
-                    image={mlBootcamp}
-                    title="Bootcamp"
-                  />
-                  <CardContent className={classes.cardContent}>
-                    <Typography gutterBottom variant="h3" component="h2">
-                      𝐃𝐞𝐜𝐢𝐩𝐡𝐞𝐫 𝐃𝐞𝐞𝐩 𝐋𝐞𝐚𝐫𝐧𝐢𝐧𝐠
-                    </Typography>
-                    <Typography variant="h6">
-                      This will be a course consisting of consolidated efforts
+        <br/>
+     <Container>
+        <Grid
+          spacing={4}
+          container
+          className={classes.gridContainer}
+          justify="center"
+        >
+          <Grid item xs={12} sm={6}>
+            <Card className={classes.root} variant="outlined">
+              <CardActionArea>
+                <CardMedia
+                  component="img"
+                  alt="Contemplative Reptile"
+                  height="300"
+                  image={mlBootcamp}
+                  title="Contemplative Reptile"
+                />
+                <CardContent>
+                  <Typography variant="h3" component="h2">
+                  𝐃𝐞𝐜𝐢𝐩𝐡𝐞𝐫 𝐃𝐞𝐞𝐩 𝐋𝐞𝐚𝐫𝐧𝐢𝐧𝐠
+                  </Typography>
+                  <Typography variant="h5" color="textSecondary" component="p">
+                  This will be a course consisting of consolidated efforts
                       and lessons that many 𝐭𝐞𝐜𝐡 𝐞𝐧𝐭𝐡𝐮𝐬𝐢𝐚𝐬𝐭𝐬 have learnt over
                       the years and will be presented by individuals who have
                       done Deep Learning courses of Andrew Ng and Fast ai, made
                       awesome projects and are working on research papers.
-                    </Typography>
-                  </CardContent>
-                  <CardActions>
-                    <Button
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+              <CardActions>
+
+              <Button
                       size="large"
                       href="https://www.youtube.com/watch?v=i6N6Lgvjdrk&feature=youtu.be"
+                      target="_blank"
                       variant="contained"
                       color="primary"
                     >
@@ -129,17 +139,87 @@ export default function Album() {
                     <Button
                       size="large"
                       href="https://www.youtube.com/watch?v=kTyGBn0TWxQ"
+                      target="_blank"
                       variant="contained"
                       color="secondary"
                     >
                       View Session
                     </Button>
-                  </CardActions>
-                </Card>
-              </Grid>
-            ))}
+              </CardActions>
+            </Card>
           </Grid>
-        </Container>
+          <Grid item xs={12} sm={6}>
+            <Card className={classes.root} variant="outlined">
+              <CardActionArea>
+                <CardMedia
+                  component="img"
+                  alt="Contemplative Reptile"
+                  height="300"
+                  image={mlBootcamp}
+                  title="Contemplative Reptile"
+                />
+                <CardContent>
+                  <Typography variant="h3" component="h2">
+                    Coming Soon
+                  </Typography>
+                  <Typography variant="h5" color="textSecondary" component="p">
+                    Stay tuned
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+              <CardActions>
+
+                <div align="center">
+                  <Button
+                    size="large"
+                    variant="contained"
+                    color="secondary"
+                    disabled
+                  >
+                    Read More
+                  </Button>
+                </div>
+              </CardActions>
+            </Card>
+          </Grid>
+          <Grid item xs={12} sm={6}>
+            <Card className={classes.root} variant="outlined">
+              <CardActionArea>
+                <CardMedia
+                  component="img"
+                  alt="Contemplative Reptile"
+                  height="300"
+                  image={mlBootcamp}
+                  title="Contemplative Reptile"
+                />
+                <CardContent>
+                  <Typography variant="h3" component="h2">
+                    Coming Soon
+                  </Typography>
+                  <Typography variant="h5" color="textSecondary" component="p">
+                    Stay tuned
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+              <CardActions>
+
+                <div align="center">
+                  <Button
+                    size="large"
+                    variant="contained"
+                    color="secondary"
+                    disabled
+                  >
+                    Read More
+                  </Button>
+                </div>
+              </CardActions>
+            </Card>
+          </Grid>
+          <Grid item xs={12} sm={6}></Grid>
+          <Grid item xs={12} sm={6}></Grid>
+        </Grid>
+      </Container>
       </main>
     </React.Fragment>
   );
