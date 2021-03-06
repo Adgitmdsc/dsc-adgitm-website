@@ -1,0 +1,71 @@
+.u-text-center {
+  text-align: center !important;
+}
+
+.u-mb-big {
+  margin-bottom: 5rem !important;
+
+  @include respond(tab-port) {
+    margin-bottom: 3rem !important;
+  }
+}
+
+.u-mb-med {
+  margin-bottom: 3rem !important;
+
+  @include respond(tab-port) {
+    margin-bottom: 2rem !important;
+  }
+}
+
+.u-mb-small {
+  margin-bottom: 1.5rem !important;
+
+  @include respond(tab-port) {
+    margin-bottom: 1rem !important;
+  }
+}
+
+.u-mt-big {
+  margin-top: 5rem !important;
+}
+
+.u-mt-med {
+  margin-top: 3rem !important;
+}
+
+.u-mt-small {
+  margin-top: 1.5rem !important;
+}
+
+.u-sm-text {
+  font-size: 1.6rem;
+  letter-spacing: 0.2rem;
+  text-align: justify;
+  font-weight: 300;
+
+  @include respond(tab-port) {
+    text-align-last: center;
+  }
+}
+
+.u-container {
+  max-width: 100rem;
+  margin: 0 auto;
+
+  @include respond(tab-land) {
+    max-width: 90rem;
+  }
+  @include respond(tab-port) {
+    max-width: 80%;
+  }
+
+  @include respond(big-scr) {
+    max-width: 114rem;
+  }
+}
+
+.u-sm-container {
+  width: 40%;
+  margin: auto auto;
+}

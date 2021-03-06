@@ -1,0 +1,82 @@
+.cert {
+  width: 90%;
+  height: 76.8rem;
+  // padding: 5rem;
+  margin: 5rem auto;
+  border: 1rem solid $black;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+
+  &__header {
+    @include flexCenterCenter;
+    width: 100%;
+  }
+
+  &__dsc-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5rem;
+
+    svg {
+      width: 14rem;
+      height: 10rem;
+    }
+  }
+
+  &__dq-logo {
+    height: 14rem;
+    width: 14rem;
+  }
+
+  &__dq-img {
+    height: 100%;
+    width: 100%;
+  }
+
+  &__content {
+    width: 100%;
+  }
+
+  &__name-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+
+  &__arrow-l {
+    transform: rotate(180deg);
+  }
+
+  &__arrow-l,
+  &__arrow-r {
+    svg {
+      width: 20rem;
+      height: 20rem;
+      fill: rgba($yellow, 0.3);
+    }
+  }
+
+  &__name {
+    font-size: 5rem;
+    color: $blue;
+    text-transform: uppercase;
+  }
+
+  .text {
+    text-align: center;
+    text-align-last: center;
+  }
+
+  &__footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 136rem;
+    svg {
+      transform: translateY(1rem);
+    }
+  }
+}

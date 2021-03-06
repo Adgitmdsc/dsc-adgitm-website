@@ -1,0 +1,44 @@
+.home {
+  display: grid;
+  grid-template-rows: auto;
+
+  &__head {
+    padding-bottom: 1rem;
+    border-bottom: 0.5rem solid $yellow;
+    display: inline;
+    color: $grey-3;
+  }
+
+  &__text {
+    text-align-last: center;
+    font-size: 1.8rem;
+  }
+
+  &__rocket,
+  &__coder {
+    position: absolute;
+    background-attachment: fixed;
+
+    @include respond(tab-port) {
+      display: none;
+    }
+
+    svg {
+      width: 20rem;
+      height: 30rem;
+    }
+  }
+
+  &__rocket {
+    left: 10rem;
+    transform: translateY(3rem);
+    svg {
+      width: 25rem;
+    }
+  }
+
+  &__coder {
+    right: 10rem;
+    transform: translateY(90rem);
+  }
+}

@@ -1,0 +1,21 @@
+.footer {
+  height: 10rem;
+  background-color: rgba($grey-2, 1);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: $grey-3;
+  align-items: center;
+
+  svg {
+    width: 10rem;
+    height: 100%;
+    margin-right: 1rem;
+    stroke: $black;
+    fill: $black;
+
+    rect {
+      fill: $grey-3;
+    }
+  }
+}
