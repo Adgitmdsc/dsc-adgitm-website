@@ -350,24 +350,7 @@ export default function Team() {
                             </Grid>
                         </Paper>
                     </Grid>
-                    <Grid item xs={12} sm={4}>
-                        <Paper elevation={3}>
-                            <Grid container wrap="nowrap" spacing={2}>
-                                <Grid item>
-                                    <Avatar alt="Member Photo" src={Atishay} className={classes.large} />
-                                </Grid>
-                                <Grid item xs>
-                                    <a href="https://www.linkedin.com/in/atishay-jain1999/">
-                                        <Typography variant="h4" className={classes.hy}>
-                                            Atishay
-                                    </Typography></a>
-                                    <Typography variant="h5" gutterBottom className={classes.hx}>
-                                        Marketing Head
-                                    </Typography>
-                                </Grid>
-                            </Grid>
-                        </Paper>
-                    </Grid>
+                   
                     <Grid item xs={12} sm={4}>
                         <Paper elevation={3}>
                             <Grid container wrap="nowrap" spacing={2}>
