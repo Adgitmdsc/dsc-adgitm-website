@@ -19,7 +19,6 @@ import Rajeev from '../assets/team/Rajeev.jpg'
 import Uday from '../assets/team/Uday.jpg'
 
 import Ritik from '../assets/team/Ritik.jpg'
-import Atishay from '../assets/team/Atishay.jpg'
 import Digambar from '../assets/team/Digambar.jpg'
 import Nikunj from '../assets/team/Nikunj.jpg'
 import Ishika from '../assets/team/Ishika.jpg'
