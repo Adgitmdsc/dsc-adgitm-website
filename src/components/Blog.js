@@ -53,7 +53,7 @@ export default function Blog() {
             variant="contained"
             color="primary"
             className={classes.button}
-            link="https://medium.com/dsc-adgitm"
+            href="https://medium.com/dsc-adgitm"
             target="_blank"
           >
             View on medium
