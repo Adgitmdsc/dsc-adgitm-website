@@ -1,11 +1,16 @@
 import * as React from "react"
 import 'bootstrap/dist/css/bootstrap.css';
+import Navbar from "../components/Navbar";
+import ProjectCard from "../components/ProjectCard";
+import Footer from "../components/Footer";
 
 // markup
 const ProjectsPage = () => {
     return (
-        <div className="container mt-3">
-            <h2 className="text-center"> Hello World </h2>
+        <div className="container-fluid">
+            <Navbar />
+            <ProjectCard />
+            <Footer />
         </div>
     )
 }

@@ -1,11 +1,16 @@
 import * as React from "react"
 import 'bootstrap/dist/css/bootstrap.css';
+import Navbar from "../components/Navbar";
+import BlogCard from "../components/BlogCard";
+import Footer from "../components/Footer";
 
 // markup
 const BlogsPage = () => {
     return (
-        <div className="container mt-3">
-            <h2 className="text-center"> Hello World </h2>
+        <div className="container-fluid">
+            <Navbar />
+            <BlogCard />
+            <Footer />
         </div>
     )
 }
