@@ -1,6 +1,6 @@
 import * as React from "react"
 import 'bootstrap/dist/css/bootstrap.css';
-import Navbar from "../components/Navbar";
+import Navbar from "../components/NavbarComponent";
 import TeamCard from "../components/TeamCard";
 import Footer from "../components/Footer";
 
