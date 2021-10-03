@@ -8,7 +8,7 @@ function NavbarComponent() {
     return (
         <Navbar bg="dark" variant="dark" expand="lg">
             <Container>
-                <Navbar.Brand href="/">
+                <Navbar.Brand href="/" style={{ fontSize: 24, fontWeight: 500 }}>
                     <img src="https://www.dscsdmc.org/img/logo.png" alt="" />
                     DSC ADGITM</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
