@@ -10,7 +10,7 @@ import Footer from '../components/Footer'
 // markup
 const IndexPage = () => {
   return (
-    <div className="container-fluid">
+    <div>
       <Navbar />
       <HeroSection />
       <BlogSection />
