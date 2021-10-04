@@ -9,7 +9,7 @@ function Footer() {
             style={{ backgroundColor: '#333' }}
         >
 
-            <section className="p-3 pt-3">
+            <section className="container">
                 <div className="row d-flex align-items-center">
                     <div className="col-md-7 col-lg-8 text-center text-md-start">
 

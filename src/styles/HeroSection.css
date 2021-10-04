@@ -1,0 +1,21 @@
+.HeroSection {
+  display: flex;
+  height: 80vh;
+  max-height: 1080px;
+  align-items: center;
+}
+
+.left-container,
+.right-container {
+  width: 50%;
+}
+
+.left-container {
+  text-align: left;
+}
+
+.right-container > img {
+  width: 70%;
+  height: 80%;
+  border-radius: 20px;
+}

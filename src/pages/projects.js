@@ -8,7 +8,7 @@ import { Container } from "react-bootstrap";
 // markup
 const ProjectsPage = () => {
     return (
-        <div className="container-fluid">
+        <div>
             <Navbar />
             <Container>
                 <ProjectCard />
