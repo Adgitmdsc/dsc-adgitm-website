@@ -1,18 +1,18 @@
-import * as React from "react"
-import 'bootstrap/dist/css/bootstrap.css';
+import * as React from "react";
+import "bootstrap/dist/css/bootstrap.css";
 import Navbar from "../components/NavbarComponent";
-import TeamCard from "../components/TeamCard";
+import TeamPage from "../components/TeamPage";
 import Footer from "../components/Footer";
 
 // markup
-const TeamPage = () => {
-    return (
-        <div className="container-fluid">
-            <Navbar />
-            <TeamCard />
-            <Footer />
-        </div>
-    )
-}
+const Team = () => {
+  return (
+    <div>
+      <Navbar />
+      <TeamPage />
+      <Footer />
+    </div>
+  );
+};
 
-export default TeamPage
+export default Team;

@@ -1,0 +1,22 @@
+.blog-description {
+  padding: 6rem;
+  padding-bottom: 0rem;
+  font-size: 1.3rem;
+  text-align: left;
+}
+
+.gif-logo {
+  width: 40%;
+}
+
+@media screen and (max-width: 576px) {
+  .blog-description {
+    padding: 2rem;
+  }
+  .direction {
+    flex-direction: column-reverse;
+  }
+  .gif-logo {
+    width: 100%;
+  }
+}
