@@ -1,0 +1,39 @@
+.project-body{
+    background-color: #121212;
+    
+}
+
+.illustration{
+    width: 70%;
+    justify-content: center;
+}
+
+.left{
+    flex: 0.5;
+}
+
+.right{
+    flex: 0.7;
+    text-align: left;
+    padding: 2rem;
+    font-size: 1.3rem;
+}
+
+.project-description{
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .project-body {
+      flex-direction: column;
+    }
+    .illustration {
+      width: 70%;
+    }
+  }
