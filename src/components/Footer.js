@@ -1,12 +1,15 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
+import { Linkedin, Github, Instagram, Twitter } from "react-bootstrap-icons";
+import '../styles/SocialLinks.css'
+
 
 function Footer() {
     return (
 
         <footer
             className="text-center text-lg-start text-white"
-            style={{ backgroundColor: '#333' }}
+            style={{ backgroundColor: '#111111' }}
         >
 
             <section className="container">
@@ -18,20 +21,25 @@ function Footer() {
                             DSC ADGITM
                         </div>
                     </div>
-                    <div className="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+                    <div id="footer-socials" style={{ display: 'none' }} className="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end pb-3">
 
                         <a style={{ marginLeft: 20 }} href="/"
-                        ><img className="icon" style={{ width: 50, height: 50 }} src="https://img.icons8.com/color/48/000000/instagram-new--v1.png" /></a>
+                        ><Linkedin style={{ fontSize: '1.6rem', color: '#0077b5' }} /></a>
 
                         <a style={{ marginLeft: 20 }} href="/"
-                        ><img className="icon" style={{ width: 50, height: 50 }} src="https://img.icons8.com/color/48/000000/linkedin.png" /></a>
+                        ><Github style={{ fontSize: '1.6rem', color: '#fff' }} /></a>
 
                         <a style={{ marginLeft: 20 }} href="/"
-                        ><img className="icon" style={{ width: 50, height: 50 }} src="https://img.icons8.com/material-outlined/48/000000/github.png" /></a>
+                        ><Instagram style={{ fontSize: '1.6rem', color: '#d6249f' }} /></a>
 
                         <a style={{ marginLeft: 20 }} href="/"
-                        ><img className="icon" style={{ width: 50, height: 50 }} src="https://img.icons8.com/color/48/000000/twitter-circled--v1.png" /></a>
+                        ><Twitter style={{ fontSize: '1.6rem', color: '#0077b5' }} /></a>
 
+
+                    </div>
+                    <div id="copyright" className="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+
+                        Copyright &#169; DSC ADGITM@2021
 
                     </div>
                 </div>
