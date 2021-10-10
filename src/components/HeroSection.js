@@ -25,7 +25,7 @@ function HeroSection() {
                     />
                 </div>
             </Container>
-            <img className="pb-3 pt-1" src="https://img.icons8.com/external-those-icons-fill-those-icons/24/ffffff/external-down-arrows-those-icons-fill-those-icons-1.png" />
+            <img className="pb-3 pt-1 mb-5" src="https://img.icons8.com/external-those-icons-fill-those-icons/24/ffffff/external-down-arrows-those-icons-fill-those-icons-1.png" />
         </>
     )
 }

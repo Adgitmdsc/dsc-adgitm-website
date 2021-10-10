@@ -1,12 +1,13 @@
-import * as React from "react"
-import 'bootstrap/dist/css/bootstrap.css';
-import Navbar from '../components/NavbarComponent'
-import HeroSection from '../components/HeroSection'
-import BlogSection from '../components/BlogSection'
-import ProjectSection from '../components/ProjectSection'
-import TeamSection from '../components/TeamSection'
-import Footer from '../components/Footer'
+import * as React from "react";
+import "bootstrap/dist/css/bootstrap.css";
+import Navbar from "../components/NavbarComponent";
+import HeroSection from "../components/HeroSection";
+import BlogSection from "../components/BlogSection";
+import ProjectSection from "../components/ProjectSection";
+import TeamSection from "../components/TeamSection";
+import Footer from "../components/Footer";
 import SocialLinks from "../components/SocialLinks";
+import AimSection from "../components/AimSection";
 
 // markup
 const IndexPage = () => {
@@ -15,12 +16,13 @@ const IndexPage = () => {
       <Navbar />
       <SocialLinks />
       <HeroSection />
+      <AimSection />
       <BlogSection />
       <ProjectSection />
       <TeamSection />
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default IndexPage
+export default IndexPage;

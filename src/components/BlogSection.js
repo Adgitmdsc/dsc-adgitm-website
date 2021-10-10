@@ -15,7 +15,7 @@ function BlogSection() {
             voluptatibus eveniet odit, reiciendis tenetur, quidem ducimus
             repellendus nihil totam ipsum. Optio, illo reiciendis necessitatibus
             est id similique ex?
-            <button className="btn btn-primary mt-4">Know More</button>
+            <button className="btn btn-primary mt-4 mb-5">Know More</button>
           </p>
         </div>
         <img
