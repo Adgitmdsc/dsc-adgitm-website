@@ -36,7 +36,7 @@ function ProjectCard() {
           {categoryItems.map((curElem, index) => {
             return (
               <Button
-                className="btn"
+                className="btn m-2"
                 key={index}
                 onClick={() => filterMenu(curElem)}
               >

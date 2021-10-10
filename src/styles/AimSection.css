@@ -1,4 +1,4 @@
-.project-body {
+.aim-body {
   background-color: #121212;
 }
 
@@ -7,18 +7,18 @@
   justify-content: center;
 }
 
-.left {
+.aim-left {
   flex: 0.5;
 }
 
-.right {
+.aim-right {
   flex: 0.7;
   text-align: left;
   padding: 2rem;
   font-size: 1.3rem;
 }
 
-.project-description {
+.aim-description {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,7 +26,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .project-body {
+  .aim-body {
     flex-direction: column;
   }
   .illustration {
