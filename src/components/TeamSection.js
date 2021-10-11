@@ -6,7 +6,7 @@ import "../styles/TeamCard.css";
 
 function TeamSection() {
   return (
-    <Container fluid className="p-4 bg-dark w-100">
+    <Container fluid className="mobile-padding p-4 bg-dark w-100">
       <Row>
         <Col>
           <Carousel nextLabel="" prevLabel="" interval={1000}>
@@ -30,7 +30,7 @@ function TeamSection() {
                         Some quick example text to build on the card title and
                         make up the bulk of the card's content.
                       </q>
-                      <div className="d-flex w-100 mt-5 fs-3 justify-content-around">
+                      <div className="d-flex w-100 mt-5 fs-3 justify-content-around social-links">
                         <Linkedin color="#0077b5" />
                         <Github color="#000" />
                         <Instagram color="#d6249f" />
@@ -46,7 +46,7 @@ function TeamSection() {
                   <div className="d-flex justify-content-center wrap">
                     <div className="d-flex flex-column align-item-center">
                       <img
-                        src="https://source.unsplash.com/featured/?boy"
+                        src="https://source.unsplash.com/featured/?person"
                         alt="memberDP"
                         className="rounded-circle"
                       />
@@ -60,7 +60,7 @@ function TeamSection() {
                         Some quick example text to build on the card title and
                         make up the bulk of the card's content.
                       </q>
-                      <div className="d-flex w-100 mt-5 fs-3 justify-content-around">
+                      <div className="d-flex w-100 mt-5 fs-3 justify-content-around social-links">
                         <Linkedin color="#0077b5" />
                         <Github color="#000" />
                         <Instagram color="#d6249f" />
@@ -76,7 +76,7 @@ function TeamSection() {
                   <div className="d-flex justify-content-center wrap">
                     <div className="d-flex flex-column align-item-center">
                       <img
-                        src="https://source.unsplash.com/featured/?boy"
+                        src="https://source.unsplash.com/featured/?girl"
                         alt="memberDP"
                         className="rounded-circle"
                       />
@@ -90,7 +90,7 @@ function TeamSection() {
                         Some quick example text to build on the card title and
                         make up the bulk of the card's content.
                       </q>
-                      <div className="d-flex w-100 mt-5 fs-3 justify-content-around">
+                      <div className="d-flex w-100 mt-5 fs-3 justify-content-around social-links">
                         <Linkedin color="#0077b5" />
                         <Github color="#000" />
                         <Instagram color="#d6249f" />
