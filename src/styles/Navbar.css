@@ -1,12 +1,12 @@
-a{
+a {
   text-decoration: none;
 }
 
-body{
+body {
   overflow-x: hidden !important;
 }
 
-#header{
+#header {
   padding: 20px 35px;
   display: flex;
   background-color: #1c1c1c;
@@ -17,62 +17,62 @@ body{
   width: 100%;
 }
 
-.mobile{
+.mobile {
   display: none !important;
 }
 
-.logo{
+.logo {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.brand_icon{
+.brand_icon {
   height: 30px;
   margin-right: 9px;
 }
 
-.brand_name{
-  font-size: 29px;
+.brand_name {
+  font-size: 1.5rem;
   color: #fff;
   text-transform: uppercase;
   margin: 0;
 }
 
-.header_link{
+.header_link {
   text-transform: uppercase;
   padding: 10px 15px;
-  margin: 0 20px;
-  font-size: 12px;
+  margin: 0 10px;
+  font-size: 1.1rem;
   letter-spacing: 3px;
   color: #fff;
-  transition: all .4s ease;
+  transition: all 0.4s ease;
   border-bottom: 2px solid transparent;
 }
 
-.header_link:hover{
+.header_link:hover {
   color: rgb(3, 127, 255);
-  border-color:rgb(3, 127, 255);
+  border-color: rgb(3, 127, 255);
 }
 
-.header_cta{
+.header_cta {
   padding: 8px 25px;
   background-color: rgb(3, 127, 255);
   color: #fff;
   border-radius: 3px;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
-  transition: all .4s ease;
+  transition: all 0.4s ease;
   font-weight: 500;
   text-transform: uppercase;
 }
 
-.header_cta:hover{
+.header_cta:hover {
   background-color: #fff;
   color: rgb(3, 127, 255);
   font-weight: 500;
 }
 
-.hamburger{
+.hamburger {
   z-index: 1500;
   padding: 5px;
   display: flex;
@@ -80,11 +80,11 @@ body{
   align-items: center;
 }
 
-.hamburger img{
+.hamburger img {
   height: 25px;
 }
 
-.mobile .header_links{
+.mobile .header_links {
   position: absolute;
   height: 100vh;
   width: 100%;
@@ -96,26 +96,36 @@ body{
   align-items: center;
   flex-direction: column;
   background-color: #1c1c1c;
-  transition: all .4s ease;
+  transition: all 0.4s ease;
 }
 
-.mobile .header_links.show{
+.mobile .header_links.show {
   left: 0;
 }
 
-.mobile .header_link,.mobile .header_cta{
+.mobile .header_link,
+.mobile .header_cta {
   margin: 20px 0;
   padding: 20px 55px;
   font-size: 25px;
 }
 
+
 /* MEDIA QUERIES */
-@media only screen and (max-width:1199px) {
-  .mobile{
+@media only screen and (max-width: 1199px) {
+  .mobile {
     display: flex !important;
   }
 
-  .desktop{
+  .desktop {
     display: none !important;
+  }
+
+  .brand_icon {
+    height: 25px;
+    margin-right: 5px;
+  }
+  .brand_name {
+    font-size: 1.3rem;
   }
 }
