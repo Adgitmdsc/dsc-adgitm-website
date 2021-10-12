@@ -14,11 +14,10 @@ function AimSection() {
         </div>
         <div className="aim-right">
           <p className="aim-description mt-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Perspiciatis, dolores? Voluptate et unde, consequuntur eos earum qui
-            voluptatibus, corporis vitae sint sit rem dolorem dolor neque minus
-            quae accusantium cupiditate?Lorem ipsum dolor sit amet consectetur
-            adipisicing elit.
+            At Developer Student Club, ADGITM we believe imagination has no
+            limits and we can make almost anything possible through technology.
+            We want to create leaders by empowering them to think out of the
+            box.
           </p>
           <Button className="mt-4 mb-5">Join Us</Button>
         </div>

@@ -6,7 +6,7 @@ import TeamCard from "./TeamCard";
 export default function TeamPage() {
   return (
     <Container fluid className="bg-dark text-white p-3">
-      <h1>Dsc Lead</h1>
+      <h1>DSC Lead</h1>
       <div className="d-flex flex-wrap justify-content-evenly align-items-center mb-5">
         <TeamCard />
       </div>

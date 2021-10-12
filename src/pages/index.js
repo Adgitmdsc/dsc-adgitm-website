@@ -8,11 +8,18 @@ import TeamSection from "../components/TeamSection";
 import Footer from "../components/Footer";
 import SocialLinks from "../components/SocialLinks";
 import AimSection from "../components/AimSection";
+import { Helmet } from "react-helmet";
+import Favicon from "../images/favicon.ico";
 
 // markup
 const IndexPage = () => {
   return (
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>DSC-ADGITM</title>
+        <link rel="shortcut icon" href={Favicon} type="image/x-icon" />
+      </Helmet>
       <Navbar />
       <SocialLinks />
       <HeroSection />
