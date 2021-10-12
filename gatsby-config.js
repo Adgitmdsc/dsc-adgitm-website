@@ -3,5 +3,5 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "dsc-adgitm-w",
   },
-  plugins: [],
+  plugins: [`gatsby-plugin-react-helmet`],
 };

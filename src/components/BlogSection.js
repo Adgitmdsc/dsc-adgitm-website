@@ -9,14 +9,20 @@ function BlogSection() {
       <h1>Blog and Resources</h1>
       <div className="d-flex justify-content-between direction">
         <div className="d-flex flex-column justify-content-start">
-          <p className="blog-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-            animi inventore blanditiis id voluptas velit necessitatibus nam,
-            voluptatibus eveniet odit, reiciendis tenetur, quidem ducimus
-            repellendus nihil totam ipsum. Optio, illo reiciendis necessitatibus
-            est id similique ex?
-            <button className="btn btn-primary mt-4 mb-5">Know More</button>
-          </p>
+          <div className="blog-description">
+            <p>
+              The main purpose of a blog is to connect you to the relevant
+              audience. Another one is to boost your traffic and send quality
+              leads to your website/projects. In our community, we believe to
+              make projects collectively and spread word by writing blogs or
+              open source your projects.
+              <br />
+              If you think you can write a blog, we are free to publish on our
+              GDSC medium feed. Please contact us on our
+              <a href="mailto:googldevelopersadgitm@gmail.com"> email</a>.
+            </p>
+            <button className="btn btn-primary mt-3">Know More</button>
+          </div>
         </div>
         <img
           src="https://my.pobble.com/hs-fs/hubfs/motivated-writer-no-bg-5.gif?width=1200&name=motivated-writer-no-bg-5.gif"
