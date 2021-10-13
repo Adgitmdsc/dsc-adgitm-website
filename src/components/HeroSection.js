@@ -2,13 +2,19 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import { Container } from "react-bootstrap";
 import "../styles/HeroSection.css";
+import { motion } from "framer-motion";
 
 function HeroSection() {
   return (
     <>
       <Container fluid className="p-3 HeroSection">
         <div className="d-flex justify-content-between direction">
-          <div className="d-flex flex-column justify-content-start pt-3">
+          <motion.div
+            className="d-flex flex-column justify-content-start pt-3"
+            initial={{ x: "-100vw" }}
+            animate={{ x: 0 }}
+            transition={{ delay: 0.5, duration: 2 }}
+          >
             <h1
               className="hero-header"
               style={{ textAlign: "left", paddingLeft: "6rem" }}
@@ -32,14 +38,22 @@ function HeroSection() {
               resources must not only be channeled into conducting events but
               also to propagate learning and teaching, symbiotically.
             </p>
-            <button
+            <motion.button
+              whileHover={{
+                scale: 1.1,
+                backgroundColor: "#fff",
+                color: "#000",
+              }}
               style={{ marginLeft: "6rem", width: "40%" }}
               className="btn btn-primary mt-3 hero-button"
             >
               Collaborate on Project
-            </button>
-          </div>
-          <img
+            </motion.button>
+          </motion.div>
+          <motion.img
+            initial={{ x: "100vw" }}
+            animate={{ x: 0 }}
+            transition={{ delay: 0.5, duration: 2 }}
             style={{ width: "40%" }}
             src="https://dscupt.tech/_next/static/images/home-875df7ff864cdbe3f228360a1b1e263f.webp"
             alt="DSC Group Logo"

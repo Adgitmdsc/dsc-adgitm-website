@@ -4,13 +4,19 @@ import { Link } from "gatsby";
 import "../styles/Navbar.css";
 import MenuIcon from "../images/menu.png";
 import CrossIcon from "../images/cross.png";
+import { motion } from "framer-motion";
 
 function NavbarComponent() {
   //STATES
   const [menuOpen, setMenuOpen] = useState(false);
 
   const desktopNavbar = (
-    <div className="container d-flex justify-content-between align-items-center desktop">
+    <motion.div
+      className="container d-flex justify-content-between align-items-center desktop"
+      initial={{ y: "-100vh" }}
+      animate={{ y: 0 }}
+      transition={{ duration: 1 }}
+    >
       <div className="logo">
         <Link to="/" className="logo">
           <img
@@ -34,11 +40,11 @@ function NavbarComponent() {
         <Link to="/team" className="header_link">
           Team
         </Link>
+        <Link to="https://forms.gle/Qx21QCW9iG5B3XFVA" className="header_cta">
+          Join Us
+        </Link>
       </div>
-      <Link to="https://forms.gle/Qx21QCW9iG5B3XFVA" className="header_cta">
-        Join Us
-      </Link>
-    </div>
+    </motion.div>
   );
 
   const mobileNavbar = (

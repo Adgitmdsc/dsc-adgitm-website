@@ -27,7 +27,11 @@ function SocialLinks() {
           />
         </a>
 
-        <a href="/">
+        <a
+          href="https://www.instagram.com/gdsc_adgitm/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <Instagram
             className="sticky-icons"
             id="instagram-icon"
