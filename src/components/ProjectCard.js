@@ -3,11 +3,12 @@ import "bootstrap/dist/css/bootstrap.css";
 import { projects } from "./data";
 import { Button, Card, Row, Col } from "react-bootstrap";
 import "../styles/ProjectCard.css";
+import { motion } from "framer-motion";
 
 function ProjectCard() {
   const allCatValues = [
-    "All", ...new Set(projects.map((curElem) => curElem.category)),
-    
+    "All",
+    ...new Set(projects.map((curElem) => curElem.category)),
   ];
 
   const [categoryItems, setCategoryItems] = useState(allCatValues);
@@ -28,7 +29,12 @@ function ProjectCard() {
   };
 
   return (
-    <div className="mt-3">
+    <motion.div
+      className="mt-3"
+      initial={{ x: "-100vw" }}
+      animate={{ x: 0 }}
+      transition={{ type: "spring", delay: 0.5 }}
+    >
       <div className="grid">
         <h1>PROJECTS</h1>
         <hr />
@@ -70,7 +76,7 @@ function ProjectCard() {
           })}
         </Row>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
