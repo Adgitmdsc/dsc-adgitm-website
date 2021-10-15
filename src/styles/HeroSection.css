@@ -38,6 +38,25 @@ html {
   font-size: 1.2rem;
 }
 
+@keyframes blink {
+  0% {
+    opacity: 1;
+    transform: translateY(-30%);
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(-20%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(-30%);
+  }
+}
+.arrow {
+  animation: blink 1s;
+  animation-iteration-count: infinite;
+}
+
 @media screen and (max-width: 760px) {
   .HeroSection {
     flex-direction: column-reverse;
