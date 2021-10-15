@@ -25,7 +25,7 @@ function HeroSection() {
                     />
                 </div>
             </Container>
-            <a style={{ cursor: 'pointer' }} href="#aimSection" id="aimSection"><img className="pb-4 pt-1 mb-4" src="https://img.icons8.com/external-those-icons-fill-those-icons/24/ffffff/external-down-arrows-those-icons-fill-those-icons-1.png" /></a>
+            <a style={{ cursor: 'pointer' }} href="#aimSection" id="aimSection"><img className="pb-4 pt-1 mb-4 arrow" src="https://img.icons8.com/external-those-icons-fill-those-icons/24/ffffff/external-down-arrows-those-icons-fill-those-icons-1.png" /></a>
 
         </>
     )
