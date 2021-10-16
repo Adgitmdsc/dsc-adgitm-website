@@ -25,7 +25,6 @@ function HeroSection() {
               style={{
                 textAlign: "left",
                 paddingLeft: "6rem",
-                fontSize: "1.1rem",
               }}
               className="pt-5 hero-text"
             >

@@ -12,10 +12,10 @@ function BlogSection() {
           <div className="blog-description">
             <p>
               The main purpose of a blog is to connect you to the relevant
-              audience. Another one is to boost your traffic and send quality
-              leads to your website/projects. In our community, we believe to
-              make projects collectively and spread word by writing blogs or
-              open source your projects.
+              audience. It is to boost your traffic and send quality leads to
+              your website/projects. In our community, we believe to make
+              projects collectively and spread word by writing blogs or open
+              source your projects.
               <br />
               If you think you can write a blog, we are free to publish on our
               GDSC medium feed. Please contact us on our

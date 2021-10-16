@@ -9,9 +9,9 @@ function TeamSection() {
     <Container fluid className="mobile-padding p-4 bg-dark w-100">
       <Row>
         <Col>
-          <Carousel nextLabel="" prevLabel="" interval={1000}>
+          <Carousel nextLabel="" prevLabel="" interval={5000}>
             <Carousel.Item>
-              <div className="d-flex justify-content-around align-items-center">
+              <div className="bg-danger d-flex justify-content-around align-items-center">
                 <Card className="text-center team-card">
                   <div className="d-flex justify-content-center wrap">
                     <div className="d-flex flex-column align-item-center">
