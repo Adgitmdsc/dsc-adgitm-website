@@ -16,7 +16,7 @@ function ProjectSection() {
           />
         </div>
         <div className="right">
-          <p className="project-description mt-5">
+          <p className="project-description mt-md-5">
             Projects provide an organized way of bringing about some kind of
             change such as developing a new product, building a bridge across a
             problem, and finding a cure for diseases. Without projects,

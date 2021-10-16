@@ -13,7 +13,7 @@ function AimSection() {
           <Image src={Gif} className="illustration mx-auto" fluid />
         </div>
         <div className="aim-right">
-          <p className="aim-description mt-5">
+          <p className="aim-description mt-md-5">
             At Developer Student Club, ADGITM we believe imagination has no
             limits and we can make almost anything possible through technology.
             We want to create leaders by empowering them to think out of the
