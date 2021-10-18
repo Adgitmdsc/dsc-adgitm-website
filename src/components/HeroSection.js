@@ -8,9 +8,9 @@ function HeroSection() {
   return (
     <>
       <Container fluid className="p-3 HeroSection">
-        <div className="d-flex justify-content-between direction">
+        <div className="d-flex justify-content-between direction mt-5 ">
           <motion.div
-            className="d-flex flex-column justify-content-start pt-3"
+            className="d-flex flex-column justify-content-start pt-3 mt-5"
             initial={{ x: "-100vw" }}
             animate={{ x: 0 }}
             transition={{ delay: 0.5, duration: 2 }}
@@ -62,7 +62,7 @@ function HeroSection() {
       </Container>
       <a style={{ cursor: "pointer" }} href="#aimSection" id="aimSection">
         <img
-          className="pb-4 pt-1 mb-4 arrow"
+          className="pb-4 pt-1 mb-4 mt-4 arrow"
           src="https://img.icons8.com/external-those-icons-fill-those-icons/24/ffffff/external-down-arrows-those-icons-fill-those-icons-1.png"
           alt="down-arrow"
         />

@@ -5,7 +5,14 @@ import "../styles/BlogSection.css";
 
 function BlogSection() {
   return (
-    <Container fluid className="p-3">
+    <Container
+      fluid
+      className="p-3"
+      data-sal="slide-up"
+      data-sal="slide-up"
+      data-sal-duration="1000"
+      data-sal-easing="ease"
+    >
       <h1>Blog and Resources</h1>
       <div className="d-flex justify-content-between direction">
         <div className="d-flex flex-column justify-content-start">
