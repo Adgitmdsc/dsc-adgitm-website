@@ -11,7 +11,7 @@ function TeamSection() {
         <Col>
           <Carousel nextLabel="" prevLabel="" interval={5000}>
             <Carousel.Item>
-              <div className="bg-danger d-flex justify-content-around align-items-center">
+              <div className="d-flex justify-content-around align-items-center">
                 <Card className="text-center team-card">
                   <div className="d-flex justify-content-center wrap">
                     <div className="d-flex flex-column align-item-center">
