@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 export default function TeamPage() {
   return (
     <motion.div
-      className="bg-dark text-white p-3"
+      className="bg-dark text-white p-5 mt-5"
       initial={{ x: "-100vw" }}
       animate={{ x: 0 }}
       transition={{ duration: 2 }}
