@@ -19,7 +19,7 @@ function HeroSection() {
               className="hero-header"
               style={{ textAlign: "left", paddingLeft: "6rem" }}
             >
-              Welcome Abroad
+              Welcome Aboard
             </h1>
             <p
               style={{
@@ -30,8 +30,8 @@ function HeroSection() {
             >
               The Google Developer student clubs ADGITM is a community creating
               a peer to peer environment by bringing developers under one roof
-              so that we connect, learn, and grow by implementing projects that
-              solve real-world problems !
+              so that we connect, learn and grow by implementing projects that
+              solve real-world problems!
               <br />
               We think slightly out of the box, we believe that a club’s
               resources must not only be channeled into conducting events but

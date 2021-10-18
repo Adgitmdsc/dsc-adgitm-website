@@ -14,6 +14,7 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import "../styles/index.css";
 
+
 function FadeInWhenVisible({ children }) {
   const controls = useAnimation();
   const [ref, inView] = useInView();
