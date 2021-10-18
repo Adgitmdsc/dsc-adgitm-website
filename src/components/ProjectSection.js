@@ -5,7 +5,14 @@ import "../styles/ProjectSection.css";
 
 function ProjectSection() {
   return (
-    <Container fluid className="p-3">
+    <Container
+      fluid
+      className="p-3"
+      data-sal="slide-up"
+      data-sal="slide-up"
+      data-sal-duration="1000"
+      data-sal-easing="ease"
+    >
       <h1>Projects</h1>
       <div className="d-flex project-body mx-auto">
         <div className="left">

@@ -4,7 +4,13 @@ import "../styles/TeamCard.css";
 
 function TeamCard() {
   return (
-    <div className="member-card d-flex flex-column align-items-center p-2">
+    <div
+      className="member-card d-flex flex-column align-items-center p-2"
+      data-sal="slide-up"
+      data-sal-duration="2000"
+      data-sal-delay="300"
+      data-sal-easing="ease"
+    >
       <div>
         <img
           src="https://source.unsplash.com/featured/?boy"
