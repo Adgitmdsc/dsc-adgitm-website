@@ -40,9 +40,9 @@ function NavbarComponent() {
         <Link to="/team" className="header_link">
           Team
         </Link>
-        <Link to="https://forms.gle/Qx21QCW9iG5B3XFVA" className="header_cta">
+        <a href="https://forms.gle/Qx21QCW9iG5B3XFVA" target="_blank" rel="noopener noreferrer" className="header_cta">
           Join Us
-        </Link>
+        </a>
       </div>
     </motion.div>
   );
@@ -80,9 +80,9 @@ function NavbarComponent() {
         <Link to="/team" className="header_link">
           Team
         </Link>
-        <Link to="https://forms.gle/Qx21QCW9iG5B3XFVA" className="header_cta">
+        <a href="https://forms.gle/Qx21QCW9iG5B3XFVA" target="_blank" rel="noopener noreferrer" className="header_cta">
           Join Us
-        </Link>
+        </a>
       </div>
     </div>
   );

@@ -71,13 +71,18 @@ html {
   }
   .hero-header,
   .hero-text,
-  .hero-button {
+  .hero-button,
+  .header-host {
     padding: 1rem !important;
   }
 
   .hero-header {
     text-align: center !important;
     margin-bottom: 0 !important;
+  }
+
+  .header-host {
+    text-align: center !important;
   }
 
   .hero-text {
