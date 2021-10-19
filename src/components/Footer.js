@@ -44,7 +44,12 @@ function Footer() {
               <Github style={{ fontSize: "1.6rem", color: "#fff" }} />
             </a>
 
-            <a style={{ marginLeft: 20 }} href="/">
+            <a
+              style={{ marginLeft: 20 }}
+              href="https://www.instagram.com/gdsc_adgitm/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <Instagram style={{ fontSize: "1.6rem", color: "#d6249f" }} />
             </a>
 

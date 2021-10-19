@@ -9,7 +9,6 @@ function ProjectSection() {
       fluid
       className="p-3"
       data-sal="slide-up"
-      data-sal="slide-up"
       data-sal-duration="1000"
       data-sal-easing="ease"
     >
