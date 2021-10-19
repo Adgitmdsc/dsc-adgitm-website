@@ -27,7 +27,7 @@ function BlogSection() {
               GDSC medium feed. Please contact us on our
               <a href="mailto:googldevelopersadgitm@gmail.com"> email</a>.
             </p>
-            <button className="btn btn-primary mt-3">Know More</button>
+            <a href="/blogs"><button className="btn btn-primary mt-3">Know More</button></a>
           </div>
         </div>
         <img

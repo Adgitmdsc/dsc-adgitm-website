@@ -11,7 +11,7 @@ function ProjectCard() {
     ...new Set(projects.map((curElem) => curElem.category)),
   ];
 
-  const [categoryItems, setCategoryItems] = useState(allCatValues);
+  const [categoryItems] = useState(allCatValues);
 
   const [items, setItems] = useState(projects);
 
@@ -52,18 +52,16 @@ function ProjectCard() {
           })}
         </div>
 
-        <Row>
+        <Row
+        // data-sal="zoom-in"
+        //           data-sal-duration="1000"
+        //           data-sal-easing="ease"
+        >
           {items.map((elem) => {
             const { id, title, image, visit, source } = elem;
             return (
               <Col lg={4} md={6} sm={12} key={id} className="mb-3 p-3 mx-auto">
-                <Card
-                  className="mb-3 bg-dark hoverEffect"
-                  data-sal="zoom-in"
-                  data-sal-duration="2000"
-                  data-sal-delay="300"
-                  data-sal-easing="ease"
-                >
+                <Card className="mb-3 bg-dark hoverEffect">
                   <Card.Img variant="top" className="img" src={image} />
                   <Card.Body className="overlay">
                     <Card.Title className="main-title">{title}</Card.Title>
