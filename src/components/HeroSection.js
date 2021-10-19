@@ -1,5 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
+import GoogleLogo from '../images/googlelogo.png'
 import { Container } from "react-bootstrap";
 import "../styles/HeroSection.css";
 import { motion } from "framer-motion";
@@ -16,17 +17,20 @@ function HeroSection() {
             transition={{ delay: 0.5, duration: 2 }}
           >
             <h1
-              className="hero-header"
+              className="hero-header pb-2"
               style={{ textAlign: "left", paddingLeft: "6rem" }}
             >
               Welcome Aboard
             </h1>
+            <h4 className="header-host" style={{ textAlign: "left", paddingLeft: "6rem" }}>
+              Powered by <img style={{ width: '100px' }} src={GoogleLogo} alt="" />
+            </h4>
             <p
               style={{
                 textAlign: "left",
                 paddingLeft: "6rem",
               }}
-              className="pt-5 hero-text"
+              className="pt-4 hero-text"
             >
               The Google Developer student clubs ADGITM is a community creating
               a peer to peer environment by bringing developers under one roof
