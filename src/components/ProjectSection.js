@@ -31,7 +31,7 @@ function ProjectSection() {
             We will be having a curated list of product so that you can turn
             theory into practice.
           </p>
-          <Button className="mt-4">Know More</Button>
+          <a href="/projects"><Button className="mt-4">Know More</Button></a>
         </div>
       </div>
     </Container>

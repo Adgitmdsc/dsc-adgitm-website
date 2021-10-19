@@ -41,17 +41,28 @@ function HeroSection() {
               resources must not only be channeled into conducting events but
               also to propagate learning and teaching, symbiotically.
             </p>
-            <motion.button
-              whileHover={{
-                scale: 1.1,
-                backgroundColor: "#fff",
-                color: "#000",
-              }}
-              style={{ marginLeft: "6rem", width: "40%" }}
-              className="btn btn-primary mt-3 hero-button"
+            <a
+              className="discord-link"
+              href="https://discord.com/invite/245QM6ckv3"
             >
-              Collaborate on Project
-            </motion.button>
+              <motion.button
+                whileHover={{
+                  textShadow: "0px 0px 8px rgb(255,255,255)",
+                  boxShadow: "0px 0px 8px rgb(255,255,255)",
+                  backgroundColor: "#fff",
+                  color: "rgb(3, 127, 255)",
+                }}
+                transition={{ duration: 0.05 }}
+                style={{
+                  marginLeft: "6rem",
+                  width: "40%",
+                  backgroundColor: "rgb(3, 127, 255)",
+                }}
+                className="btn mt-3 hero-button"
+              >
+                Collaborate on Project
+              </motion.button>
+            </a>
           </motion.div>
           <motion.img
             initial={{ x: "100vw" }}

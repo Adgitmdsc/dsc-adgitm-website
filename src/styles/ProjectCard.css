@@ -7,7 +7,7 @@ body {
   color: white;
   text-align: center;
 }
-.grid{
+.grid {
   margin-top: 6rem;
 }
 .cards {
@@ -118,7 +118,7 @@ body {
 
 .buttons {
   width: 70%;
-  margin: 3rem auto;
+  margin: 2rem auto;
   text-align: center;
 }
 

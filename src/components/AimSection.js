@@ -25,7 +25,7 @@ function AimSection() {
             We want to create leaders by empowering them to think out of the
             box.
           </p>
-          <Button className="mt-4 mb-5">Join Us</Button>
+          <a href="https://forms.gle/Qx21QCW9iG5B3XFVA"><Button className="mt-4 mb-5">Join Us</Button></a>
         </div>
       </div>
     </Container>
