@@ -52,11 +52,7 @@ function ProjectCard() {
           })}
         </div>
 
-        <Row
-        // data-sal="zoom-in"
-        //           data-sal-duration="1000"
-        //           data-sal-easing="ease"
-        >
+        <Row>
           {items.map((elem) => {
             const { id, title, image, visit, source } = elem;
             return (
