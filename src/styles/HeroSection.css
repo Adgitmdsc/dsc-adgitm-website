@@ -81,6 +81,7 @@ html {
   }
 
   .hero-text {
+    padding: 2rem !important;
     margin-bottom: 0 !important;
   }
 

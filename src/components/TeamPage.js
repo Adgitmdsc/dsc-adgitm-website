@@ -12,11 +12,11 @@ export default function TeamPage() {
       transition={{ duration: 2 }}
     >
       <h1>DSC Lead</h1>
-      <div className="d-flex flex-wrap justify-content-evenly align-items-center mb-5">
+      <div className="d-flex flex-wrap justify-content-evenly align-items-center mb-5 p-4">
         <TeamCard />
       </div>
       <h1>Core Team</h1>
-      <div className="d-flex flex-wrap justify-content-evenly align-items-center mb-5">
+      <div className="d-flex flex-wrap justify-content-evenly align-items-center mb-5 p-4">
         <TeamCard />
         <TeamCard />
         <TeamCard />
@@ -24,19 +24,18 @@ export default function TeamPage() {
         <TeamCard />
       </div>
       <h1>Web-Dev Team</h1>
-      <div className="d-flex flex-wrap justify-content-evenly align-items-center mb-5">
+      <div className="d-flex flex-wrap justify-content-evenly align-items-center mb-5 p-4">
         <TeamCard />
         <TeamCard />
         <TeamCard />
       </div>
       <h1>AI/ML Team</h1>
-      <div className="d-flex flex-wrap justify-content-evenly align-items-center mb-5">
+      <div className="d-flex flex-wrap justify-content-evenly align-items-center mb-5 p-4">
         <TeamCard />
         <TeamCard />
       </div>
       <h1>Non-Tech Team</h1>
-      <div className="member-section mb-5">
-        <TeamCard />
+      <div className="member-section mb-5 p-4">
         <TeamCard />
         <TeamCard />
         <TeamCard />

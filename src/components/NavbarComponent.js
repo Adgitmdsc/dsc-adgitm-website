@@ -80,7 +80,7 @@ function NavbarComponent() {
         <Link to="/team" className="header_link">
           Team
         </Link>
-        <Link to="/" className="header_cta">
+        <Link to="https://forms.gle/Qx21QCW9iG5B3XFVA" className="header_cta">
           Join Us
         </Link>
       </div>
