@@ -33,7 +33,7 @@ function ProjectCard() {
       className="mt-3"
       initial={{ x: "-100vw" }}
       animate={{ x: 0 }}
-      transition={{ duration: 2 }}
+      transition={{ duration: 1 }}
     >
       <div className="grid">
         <h1>PROJECTS</h1>
