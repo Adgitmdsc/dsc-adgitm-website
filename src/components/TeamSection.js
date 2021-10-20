@@ -3,8 +3,17 @@ import { Linkedin, Github, Instagram } from "react-bootstrap-icons";
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "../styles/TeamCard.css";
+import { members } from "./data";
 
 function TeamSection() {
+  const DscLead = members["DSC Lead"];
+  const coreTeam = members["Core Team"];
+  const webTeam = members["Web Dev"];
+  const AITeam = members["AI Team"];
+  let arr = [...coreTeam, ...webTeam, ...AITeam];
+  arr = arr.sort(() => Math.random() - Math.random()).slice(0, 7);
+  arr = [DscLead, ...arr];
+
   return (
     <Container fluid className="mobile-padding p-4 bg-dark w-100">
       <Row>
@@ -17,37 +26,56 @@ function TeamSection() {
             data-sal-duration="1000"
             data-sal-easing="ease"
           >
-            <Carousel.Item>
-              <div className="d-flex justify-content-around align-items-center">
-                <Card className="text-center team-card">
-                  <div className="d-flex justify-content-center wrap">
-                    <div className="d-flex flex-column align-item-center">
-                      <img
-                        src="https://source.unsplash.com/featured/?boy"
-                        alt="memberDP"
-                        className="rounded-circle"
-                      />
-                      <div className="mt-2">
-                        <h3>Card Title</h3>
-                        <h4 className="text-muted">Card Subtitle</h4>
+            {arr.map((data, index) => {
+              return (
+                <Carousel.Item key={index}>
+                  <div className="d-flex justify-content-around align-items-center">
+                    <Card className="text-center team-card">
+                      <div className="d-flex justify-content-center wrap">
+                        <div className="d-flex flex-column align-item-center">
+                          <img
+                            src={data.image}
+                            alt="memberDP"
+                            className="rounded-circle"
+                          />
+                          <div className="mt-2">
+                            <h3>{data.name}</h3>
+                            <h5 className="text-muted">{data.designation}</h5>
+                          </div>
+                        </div>
+                        <Card.Body className="d-flex flex-column justify-content-center align-items-center">
+                          <q className="fs-4">{data.quote}</q>
+                          <div className="d-flex w-100 mt-5 fs-2 justify-content-around social-links">
+                            <a
+                              href={data.linkedin}
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              <Linkedin color="#0077b5" />
+                            </a>
+                            <a
+                              href={data.github}
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              <Github color="#000" />
+                            </a>
+                            <a
+                              href={data.instagram}
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              <Instagram color="#d6249f" />
+                            </a>
+                          </div>
+                        </Card.Body>
                       </div>
-                    </div>
-                    <Card.Body className="d-flex flex-column justify-content-center align-items-center">
-                      <q className="fs-4">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </q>
-                      <div className="d-flex w-100 mt-5 fs-3 justify-content-around social-links">
-                        <Linkedin color="#0077b5" />
-                        <Github color="#000" />
-                        <Instagram color="#d6249f" />
-                      </div>
-                    </Card.Body>
+                    </Card>
                   </div>
-                </Card>
-              </div>
-            </Carousel.Item>
-            <Carousel.Item>
+                </Carousel.Item>
+              );
+            })}
+            {/* <Carousel.Item>
               <div className="d-flex justify-content-around align-items-center">
                 <Card className="text-center team-card">
                   <div className="d-flex justify-content-center wrap">
@@ -106,7 +134,7 @@ function TeamSection() {
                   </div>
                 </Card>
               </div>
-            </Carousel.Item>
+            </Carousel.Item> */}
           </Carousel>
         </Col>
       </Row>

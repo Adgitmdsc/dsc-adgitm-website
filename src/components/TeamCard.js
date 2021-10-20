@@ -2,7 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "../styles/TeamCard.css";
 
-function TeamCard() {
+function TeamCard({ data }) {
   return (
     <div
       className="member-card d-flex flex-column align-items-center p-2"
@@ -12,19 +12,15 @@ function TeamCard() {
       data-sal-easing="ease"
     >
       <div>
-        <img
-          src="https://source.unsplash.com/featured/?boy"
-          alt="memberDP"
-          className="rounded"
-        />
+        <img src={data.image} alt="memberDP" className="rounded" />
       </div>
       <div className="text-center pt-1">
         <h4 className="member-link">
-          <a href="/" target="_blank">
-            Name of person
+          <a href={data.linkedin || "#"} target="_blank" rel="noreferrer">
+            {data.name}
           </a>
         </h4>
-        <h5 className="text-wrap designation">Design and Development Head</h5>
+        <h5 className="text-wrap designation">{data.designation}</h5>
       </div>
     </div>
   );

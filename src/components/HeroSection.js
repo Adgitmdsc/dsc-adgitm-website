@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
-import GoogleLogo from '../images/googlelogo.png'
+import GoogleLogo from "../images/googlelogo.png";
 import { Container } from "react-bootstrap";
 import "../styles/HeroSection.css";
 import { motion } from "framer-motion";
@@ -22,8 +22,12 @@ function HeroSection() {
             >
               Welcome Aboard
             </h1>
-            <h4 className="header-host" style={{ textAlign: "left", paddingLeft: "6rem" }}>
-              Powered by <img style={{ width: '100px' }} src={GoogleLogo} alt="" />
+            <h4
+              className="header-host"
+              style={{ textAlign: "left", paddingLeft: "6rem" }}
+            >
+              Powered by{" "}
+              <img style={{ width: "100px" }} src={GoogleLogo} alt="" />
             </h4>
             <p
               style={{
@@ -44,6 +48,8 @@ function HeroSection() {
             <a
               className="discord-link"
               href="https://discord.com/invite/245QM6ckv3"
+              target="_blank"
+              rel="noreferrer"
             >
               <motion.button
                 whileHover={{
