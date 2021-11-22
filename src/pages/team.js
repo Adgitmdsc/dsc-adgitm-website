@@ -7,6 +7,11 @@ import Footer from "../components/Footer";
 
 // markup
 const Team = () => {
+
+  React.useEffect(() => {
+    alert("Site under construction !!")
+  },[])
+
   return (
     <div>
       <Helmet />

@@ -40,6 +40,9 @@ function NavbarComponent() {
         <Link to="/team" className="header_link">
           Team
         </Link>
+        <Link to="/coc" className="header_link">
+          Code of Conduct
+        </Link>
         <a href="https://forms.gle/Qx21QCW9iG5B3XFVA" target="_blank" rel="noopener noreferrer" className="header_cta">
           Join Us
         </a>
@@ -79,6 +82,9 @@ function NavbarComponent() {
         </Link>
         <Link to="/team" className="header_link">
           Team
+        </Link>
+        <Link to="/coc" className="header_link">
+          Code of Conduct
         </Link>
         <a href="https://forms.gle/Qx21QCW9iG5B3XFVA" target="_blank" rel="noopener noreferrer" className="header_cta">
           Join Us

@@ -11,7 +11,13 @@ import SocialLinks from "../components/SocialLinks";
 import AimSection from "../components/AimSection";
 import "../styles/index.css";
 
+
 const IndexPage = () => {
+
+  React.useEffect(() => {
+    alert("Site under construction !!")
+  },[])
+
   return (
     <div>
       <Helmet />
