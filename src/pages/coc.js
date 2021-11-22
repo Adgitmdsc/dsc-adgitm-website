@@ -2,12 +2,12 @@ import * as React from "react"
 import 'bootstrap/dist/css/bootstrap.css';
 import Helmet from "../components/Meta";
 import Navbar from "../components/NavbarComponent";
-import ProjectCard from "../components/ProjectCard";
+import CodeConduct from "../components/CodeConduct";
 import Footer from "../components/Footer";
 import { Container } from "react-bootstrap";
 
 // markup
-const ProjectsPage = () => {
+const CodeCoductPage = () => {
 
     React.useEffect(() => {
         alert("Site under construction !!")
@@ -18,11 +18,13 @@ const ProjectsPage = () => {
             <Helmet />
             <Navbar />
             <Container>
-                <ProjectCard />
+                <br />
+                <br /><br /><br />
+                <CodeConduct />
             </Container>
             <Footer />
         </div>
     )
 }
 
-export default ProjectsPage
+export default CodeCoductPage
