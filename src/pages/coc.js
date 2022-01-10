@@ -9,9 +9,7 @@ import { Container } from "react-bootstrap";
 // markup
 const CodeCoductPage = () => {
 
-    React.useEffect(() => {
-        alert("Site under construction !!")
-      },[])
+ 
 
     return (
         <div>
