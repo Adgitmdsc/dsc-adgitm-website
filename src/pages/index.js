@@ -14,10 +14,6 @@ import "../styles/index.css";
 
 const IndexPage = () => {
 
-  React.useEffect(() => {
-    alert("Site under construction !!")
-  },[])
-
   return (
     <div>
       <Helmet />
